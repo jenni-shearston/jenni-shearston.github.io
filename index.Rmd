@@ -1,0 +1,20 @@
+---
+title: "Holy cow!"
+---
+
+### I have a webpage!
+
+And I can put all kinds of stuff on it!
+
+### Add some links
+
+I like to [google](https://www.google.com) in my spare time!
+
+I can link directly to my [about page](about.html).
+
+### Picture of me
+
+Woohoo!
+
+<img src="images/headshot1.jpg" style="width:35%">
+
