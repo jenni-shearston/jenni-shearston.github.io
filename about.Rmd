@@ -1,9 +1,24 @@
 ---
-title: "About"
+title: "Academic and Professional Experience"
 ---
 
-### About this site
+## Credentials and Education
+
+stuff
+
+## Public Health Experience
 
 Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found. 
 
 If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.
+
+### Select Publications
+
+I like to [google](https://www.google.com) in my spare time!
+
+I can link directly to my [about page](about.html).
+
+
+## Education Experience
+
+stuff

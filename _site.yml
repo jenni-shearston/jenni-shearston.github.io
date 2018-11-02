@@ -3,12 +3,17 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "About"
+    - text: "Experience"
       href: about.html
+    - text: "ORCid"
+      href: https://orcid.org/0000-0002-3277-9958
     - icon: fa-envelope fa-lg
-      href: mailto:<you@youremail.com>
+      href: mailto:<js5431@cumc.columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/jenni-shearston/
+    - icon: fa-facebook fa-lg
+      href: https://www.facebook.com/jen.shearston
+    
 output:
   html_document:
     theme: flatly

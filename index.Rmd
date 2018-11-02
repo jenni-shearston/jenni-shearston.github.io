@@ -1,33 +1,21 @@
 ---
-title: "Holy cow!"
+title: "Jenni A. Shearston, MPH"
 ---
 
-### I have a webpage!
+## Hello and Welcome!
 
-And I can put all kinds of stuff on it!
-
-### Add some links
-
-I like to [google](https://www.google.com) in my spare time!
-
-I can link directly to my [about page](about.html).
-
-### Picture of me
-
-Woohoo!
+I'm Jenni Shearston, and I'm an environemental epidemiologist with an interest in social justice, surveillance, and developing environmental measures. I've worked on numerous projects in the United States and abroad, ranging from work measuring Volatile organic compound emissions from gas stations to developing an app to help Russian and US college students quit smoking.
 
 <img src="images/headshot1.jpg" style="width:35%">
 
-### I can add code
+### Research Interests
 
-```{r}
 
-library(tidyverse)
 
-tibble(
-  x = 1:10,
-  y = x + 2
-)
-```
+
+
+
+
+
 
 
