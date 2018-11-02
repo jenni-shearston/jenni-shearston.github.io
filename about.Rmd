@@ -1,11 +1,9 @@
 ---
 title: "Academic and Professional Experience"
 ---
-##
+***
 
 ## Credentials and Education
-
-##
 
 #### Degrees                      
 
@@ -28,7 +26,7 @@ Regis University, Denver, CO
 * Standard Certificate, Teacher of English, New Jersey  
 Cert #907813
 
-##
+<br>
 
 ## Public Health Experience
 
@@ -51,11 +49,15 @@ NYU Langone Medical Center, New York, NY
     Periodontal Disease and Hookah Smoking, Sharjah, UAE  
     Quit Buddy App for Smoking Cessation, NYU/St. Petersburg, Russia
 
+###
+
 * **Intern, US Environmental Protection Agency, Region II**  
 Office of the Regional Administrator, Special Projects, New York, NY  
 05/2017-09/2017	
     + Interviewed numerous stakeholders throughout Region II involved with reducing childhood exposure to lead paint, including representatives of local governments, non-governmental organizations, universities, and public health offices
     + Developed a resource for community coalitions to use when working to reduce primary lead exposure in their regions
+
+###
 
 * **Research Assistant, Department of Pediatrics**  
 NYU Langone Medical Center, New York, NY  
@@ -65,9 +67,9 @@ PI: Michael Weitzman MD
     + Collaborated with team of students to develop a masters level course on licit and illicit drug use titled Drug Use in Public Health, including the design and production of all materials and assignments
     + Served as teaching assistant for the course *Drug Use in Public Health* for two semesters
 
-##
+<br>
 
-### Select Publications
+## Select Publications
 
 1.  [Effects of hookah smoking on indoor air quality.](https://www.ncbi.nlm.nih.gov/pubmed/27798320)
 
@@ -79,9 +81,9 @@ PI: Michael Weitzman MD
 
 5.  [Characteristics of Adults Who Switched from Cigarette Smoking to E-cigarettes.](https://www.ncbi.nlm.nih.gov/pubmed/28864130)
 
-*For a full list of references please click [here.](https://orcid.org/0000-0002-3277-9958)*
+***For a full list of references please click [here.](https://orcid.org/0000-0002-3277-9958)***
 
-##
+<br>
 
 ## Teaching Experience
 
@@ -89,10 +91,12 @@ PI: Michael Weitzman MD
 6/2012-6/2014	
     + Selected from highly competitive pool to join national teacher corps of recent college graduates and professionals who commit two years to teach in high need public schools.
 
+###
+
 * **English and Special Education Teacher**  
 Newark BRIDGES High School, Newark Public Schools, Newark, NJ  
 8/2012 - 6/2014
-    + Consistently commended by supervisor for outstanding teaching and dedication to students at an urban, public, alternative education school serving over-aged and under-credited students 
-    + Requested by supervisor to create and deliver over 6 professional development sessions to full school staff
-    + Served as Senior Class Advisor to a class of 100 graduating seniors; including organizing fundraisers, planning Graduation events, and leading student representatives to plan graduation activities and school spirit activities
+    + Consistently commended by supervisor for outstanding teaching and dedication to students at an urban, public, alternative education school serving over-aged and under-credited students   
+    + Requested by supervisor to create and deliver over 6 professional development sessions to full school staff  
+    + Served as Senior Class Advisor to a class of 100 graduating seniors; including organizing fundraisers, planning Graduation events, and leading student representatives to plan graduation activities and school spirit activities  
     + Awarded Staff of the Month for outstanding service and work ethic
