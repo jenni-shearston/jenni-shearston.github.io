@@ -13,6 +13,9 @@ navbar:
       href: mailto:<js5431@cumc.columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/jenni-shearston/
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/jenni-shearston/
+
 
     
 output:

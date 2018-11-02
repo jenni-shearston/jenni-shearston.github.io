@@ -2,13 +2,17 @@
 title: "Jenni A. Shearston, MPH"
 ---
 
+##
+
 ## Hello and Welcome!
 
-I'm Jenni Shearston, and I'm an environemental epidemiologist with an interest in social justice, surveillance, and developing environmental measures. I've worked on numerous projects in the United States and abroad, ranging from work measuring Volatile organic compound emissions from gas stations to developing an app to help Russian and US college students quit smoking.
+I'm Jenni Shearston, and I'm an environemental epidemiologist with an interest in social justice, surveillance, and developing environmental measures. I've worked on numerous projects in the United States and abroad, ranging from work measuring Volatile organic compound emissions from gas stations in the US to developing an app to help Russian and US college students quit smoking.
 
-<img src="images/headshot1.jpg" style="width:35%">
+My current research interests include the refining environmental measures of industrial pollutants, geographic surveillance tools, and the epidemiology and health effects of hookah use. 
 
-### Research Interests
+<img src="images/headshot1.jpg" style="width:50%; display: block; margin: 0 auto">
+
+
 
 
 

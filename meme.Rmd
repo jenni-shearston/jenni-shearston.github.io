@@ -2,5 +2,39 @@
 title: "Meme Game"
 ---
 
-## For fun, I like to tease my colleagues, friends, and family with memes. Nothing lightens up a frustrating research project like a solid meme!
+### For fun, I like to tease my colleagues, friends, and family with memes. 
 
+####Nothing lightens up challenging research situations and government buildings like some good old fashioned jokes!
+
+<img src="images/co at va.jpg" style="width:50%; display: block; margin: 0 auto">
+
+##
+
+<img src="images/grant meme.jpg" style="width:50%; display: block; margin: 0 auto">
+
+
+### Sometimes I get a little too excited about arts and crafts...
+
+<img src="images/decorating opp.jpg" style="width:50%; display: block; margin: 0 auto">
+
+##
+
+### Recruiting participants... is weird. 
+
+<img src="images/lily's smoking meme.jpg" style="width:50%; display: block; margin: 0 auto">
+
+##
+
+<img src="images/das hookah.jpg" style="width:50%; display: block; margin: 0 auto">
+
+##
+
+### As is the way with science.... sometimes we 
+
+<img src="images/fail meme.jpg" style="width:50%; display: block; margin: 0 auto">
+
+##
+
+### and sometimes we succeed!!!!
+
+<img src="images/me with the stars.jpg" style="width:50%; display: block; margin: 0 auto">
