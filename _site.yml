@@ -1,7 +1,7 @@
 name: "Yay internet!"
 output_dir: "."
 navbar:
-  title: "Home"
+  title: "Jenni A. Shearston"
   right:
     - text: "Experience"
       href: about.html
@@ -16,8 +16,6 @@ navbar:
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/jenni-shearston/
 
-
-    
 output:
   html_document:
     theme: flatly

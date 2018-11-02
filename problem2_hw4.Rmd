@@ -1,7 +1,5 @@
 ---
 title: "Problem 2: New York Weather"
-author: "J Shearston"
-date: "November 2, 2018"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -12,6 +10,7 @@ output:
 
 library(tidyverse)
 library(flexdashboard)
+library(plotly)
 
 knitr::opts_chunk$set(
   fig.width = 6,
@@ -24,7 +23,7 @@ theme_set(theme_bw() + theme(legend.position = "bottom"))
 ```
 
 
-```{r noaa data prep, include=FALSE}
+```{r noaa data prep}
 
 noaa = p8105.datasets::ny_noaa %>% 
   janitor::clean_names() %>% 
@@ -46,15 +45,24 @@ noaa %>%
 
 ```
 
-
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-## Plot 1. 
+### Plot 1. Average July Precipitation, 3 New York Locations
 
-```{r}
+```{r plot 1}
 
-
+noaa %>% 
+  filter(month == "07") %>%
+  group_by(year, id) %>% 
+  summarise(avg_prcp = mean(prcp_mm, na.rm = TRUE),
+            avg_tmax = mean(tmax_c, na.rm = TRUE),
+            avg_tmin = mean(tmin_c, na.rm = TRUE)) %>% 
+  mutate(text_label = str_c("Max Temp: ", avg_tmax, '\nMin Temp: ', avg_tmin)) %>% 
+  plot_ly(x = ~year, y = ~avg_prcp, type = "bar",
+          alpha = 0.75, 
+          color = ~id,
+          text = ~text_label)
 
 ```
 
@@ -62,19 +70,26 @@ Column {data-width=650}
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-## Plot 2
+### Plot 2. Maximum Temperature, 1985
 
 ```{r}
 
+noaa %>% 
+  filter(year == "1985") %>%
+  plot_ly(y = ~tmax_c, color = ~id, type = "box")
 
-
+  
 ```
 
-## Plot 3
+### Plot 3. Average Snowfall Over Time
 
 ```{r}
 
-
+noaa %>% 
+  group_by(year, id) %>% 
+  summarise(avg_sn = mean(snow_cm, na.rm = TRUE)) %>% 
+  filter(id == "USC00305714" | id == "USW00094794") %>% 
+  plot_ly(y = ~avg_sn, x = ~year, color = ~id, type = "scatter", mode = "markers")
 
 
 ```
