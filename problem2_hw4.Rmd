@@ -1,9 +1,8 @@
 ---
-title: "Problem 2: New York Weather"
-output: 
+title: 'Problem 2: New York Weather'
+output:
   flexdashboard::flex_dashboard:
-    orientation: columns
-    vertical_layout: fill
+    orientation: rows
 ---
 
 ```{r setup, include=FALSE}
@@ -23,7 +22,7 @@ theme_set(theme_bw() + theme(legend.position = "bottom"))
 ```
 
 
-```{r noaa data prep}
+```{r noaa data prep, cache=TRUE}
 
 noaa = p8105.datasets::ny_noaa %>% 
   janitor::clean_names() %>% 
@@ -39,13 +38,9 @@ noaa = p8105.datasets::ny_noaa %>%
   select(id, year, month, day, tmax_c, tmin_c, prcp_mm, snow_cm, snwd_cm) %>% 
   filter(id == "USC00303773" | id == "USC00305714" | id == "USW00094794")
 
-noaa %>% 
-  group_by(id) %>% 
-  summarise(year_count = n_distinct(year))
-
 ```
 
-Column {data-width=650}
+Row {data-height=700}
 -----------------------------------------------------------------------
 
 ### Plot 1. Average July Precipitation, 3 New York Locations
@@ -67,7 +62,7 @@ noaa %>%
 ```
 
 
-Column {data-width=350}
+Row {data-height=700}
 -----------------------------------------------------------------------
 
 ### Plot 2. Maximum Temperature, 1985

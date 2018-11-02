@@ -7,6 +7,8 @@ navbar:
       href: about.html
     - text: "Meme Game"
       href: meme.html
+    - text: Flexdashboard
+      href: problem2_hw4.html
     - text: "ORCid"
       href: https://orcid.org/0000-0002-3277-9958
     - icon: fa-envelope fa-lg
@@ -15,7 +17,6 @@ navbar:
       href: http://github.com/jenni-shearston/
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/jenni-shearston/
-
 output:
   html_document:
     theme: flatly
