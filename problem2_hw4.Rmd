@@ -1,0 +1,70 @@
+---
+title: "problem2"
+author: "J Shearston"
+date: "November 2, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+
+library(tidyverse)
+
+knitr::opts_chunk$set(
+  fig.width = 6,
+  fig.asp = .6,
+  out.width = "90%"
+)
+
+theme_set(theme_bw() + theme(legend.position = "bottom"))
+
+```
+
+## Importing and Preparing Dataset
+
+```{r noaa data}
+
+noaa = p8105.datasets::ny_noaa %>% 
+  janitor::clean_names() %>% 
+  separate(date, into = c("year", "month", "day"), sep = "-") %>% 
+  mutate(tmax = as.numeric(tmax),
+         tmin = as.numeric(tmin),
+         tmax_c = tmax/10,
+         tmin_c = tmin/10,
+         prcp_mm = prcp/10,
+         snow_cm = snow/10,
+         snwd_cm = snwd/10,
+         year = as.numeric(year)) %>% 
+  select(id, year, month, day, tmax_c, tmin_c, prcp_mm, snow_cm, snwd_cm) %>% 
+  filter(id == "USC00303773" | id == "USC00305714" | id == "USW00094794")
+
+noaa %>% 
+  group_by(id) %>% 
+  summarise(year_count = n_distinct(year))
+
+```
+
+## Plot 1
+
+```{r}
+
+
+
+```
+
+## Plot 2
+
+```{r}
+
+
+
+```
+
+## Plot 3
+
+```{r}
+
+
+
+
+```
+
