@@ -1,13 +1,17 @@
 ---
-title: "problem2"
+title: "Problem 2: New York Weather"
 author: "J Shearston"
 date: "November 2, 2018"
-output: html_document
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 ---
 
 ```{r setup, include=FALSE}
 
 library(tidyverse)
+library(flexdashboard)
 
 knitr::opts_chunk$set(
   fig.width = 6,
@@ -19,9 +23,8 @@ theme_set(theme_bw() + theme(legend.position = "bottom"))
 
 ```
 
-## Importing and Preparing Dataset
 
-```{r noaa data}
+```{r noaa data prep, include=FALSE}
 
 noaa = p8105.datasets::ny_noaa %>% 
   janitor::clean_names() %>% 
@@ -43,13 +46,21 @@ noaa %>%
 
 ```
 
-## Plot 1
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+## Plot 1. 
 
 ```{r}
 
 
 
 ```
+
+
+Column {data-width=350}
+-----------------------------------------------------------------------
 
 ## Plot 2
 
