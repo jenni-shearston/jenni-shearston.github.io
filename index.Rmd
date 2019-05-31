@@ -12,7 +12,7 @@ During my public health career, I've worked on numerous projects in the United S
 
 My current research interests include modelling air pollution, including industrial  and traffic related pollutants, and understanding the health effects of exposure to gasoline among non-occupationally exposed individuals. 
 
-<img src="images/headshot1.jpg" style="width:40%; display: block; margin: 0 auto">
+<img src="images/headshot2.jpg" style="width:40%; display: block; margin: 0 auto">
 
 
 
