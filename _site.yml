@@ -5,10 +5,6 @@ navbar:
   right:
     - text: "Experience"
       href: about.html
-    - text: "Memes"
-      href: meme.html
-    - text: Flexdashboard
-      href: problem2_hw4.html
     - text: "ORCid"
       href: https://orcid.org/0000-0002-3277-9958
     - icon: fa-envelope fa-lg
@@ -19,4 +15,4 @@ navbar:
       href: https://www.linkedin.com/in/jenni-shearston/
 output:
   html_document:
-    theme: journal
+    theme: sandstone
