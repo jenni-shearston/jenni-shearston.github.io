@@ -6,11 +6,13 @@ title: "Jenni A. Shearston, MPH"
 
 ## Hello and Welcome!
 
-I'm Jenni Shearston, an environemental epidemiologist with an interest in social justice, surveillance, and environmental monitoring. I've worked on numerous projects in the United States and abroad, ranging from work measuring Volatile organic compound emissions from gas stations in the US to developing an app to help Russian and US college students quit smoking.
+I am an environemental epidemiologist with an interest in  environmental monitoring, air pollution, public health surveillance, and social justice. I am currently a PhD student at the Mailman School of Public Health at Columbia University, in the Department of Environmental Health Sciences.  
 
-My current research interests include the refining environmental measures of industrial pollutants, geographic surveillance tools, and the epidemiology and health effects of hookah use. 
+During my public health career, I've worked on numerous projects in the United States and abroad, ranging from work measuring volatile organic compound emissions at gas stations in the US to developing epidemiologic surveys to measure smoking rates in the United Arab Emirates. My work has focused on outdoor and indoor air pollution, including exposure to air pollutants from traffic, gas stations, and petroleum sources, as well as indoor pollutants like secondhand exposure to hookah, cigarettes, or electronic cigarettes. 
 
-<img src="images/headshot1.jpg" style="width:50%; display: block; margin: 0 auto">
+My current research interests include modelling air pollution, including industrial  and traffic related pollutants, and understanding the health effects of exposure to gasoline among non-occupationally exposed individuals. 
+
+<img src="images/headshot1.jpg" style="width:40%; display: block; margin: 0 auto">
 
 
 
