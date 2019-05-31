@@ -3,6 +3,8 @@ output_dir: "."
 navbar:
   title: "Jenni A. Shearston"
   right:
+    - text: "Projects"
+      href: current_projects.html
     - text: "Resume"
       href: about.html
     - text: "Publications"

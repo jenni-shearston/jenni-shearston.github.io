@@ -1,0 +1,28 @@
+---
+title: "Current Projects"
+---
+
+***
+
+<img src="images/mailman.png" style="width:50%; display: block; margin: 0 auto">
+
+<br>
+
+##**Exposures at Gas Stations**  
+* Mentor: [Markus Hilpert](https://www.mailman.columbia.edu/people/our-faculty/mh3632)  
+* Objectives: The goals of this project are (1) to quantify exposures to gasoline from typical vehicle refueling at gas stations using a number of environmental monitoring methods, and (2) to estimate exposures to gasoline from venting through underground storage tank vent pipes.  
+
+<br>
+
+##**Pesticides and Parkinson's Disease**  
+* Mentor: [Marianthi-Anna  Kioumourtzoglou](https://www.mailman.columbia.edu/people/our-faculty/mk3961)  
+* Objectives: This project uses a number of mixtures approaches to determine the potential association between agricultural pesticide use in New York State and county level Parkinson's related hospital admissions, using data from the United States Geologic Service and New York State's Statewide Planning and Research Cooperative System (SPARCS).
+
+<br>
+
+##**Traffic Related Air Pollution**  
+* Mentors: [Markus Hilpert](https://www.mailman.columbia.edu/people/our-faculty/mh3632) & [Marianthi-Anna  Kioumourtzoglou](https://www.mailman.columbia.edu/people/our-faculty/mk3961)  
+* Objectives: This project uses multiple methods, including radar counters and open source traffic data, to estimate traffic related air pollution. In addition, it evaluates the impacts of the opening of a large distribution center in a South Bronx neighborhood, and its impacts on traffic and air pollution. 
+
+
+
