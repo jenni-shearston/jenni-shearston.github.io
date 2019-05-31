@@ -16,5 +16,4 @@ navbar:
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/jenni-shearston/
 output:
-  html_document:
-    theme: sandstone
+  html_document
