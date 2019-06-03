@@ -13,9 +13,13 @@ title: "Jenni A. Shearston, MPH"
   </p>
 </div>
 
+My CV is available [here](Curriculum Vitae 06.01.19.pdf).
+
 During my public health career, I've worked on numerous projects in the United States and abroad, ranging from work measuring volatile organic compound emissions at gas stations in the US to developing epidemiologic surveys to measure smoking rates in the United Arab Emirates. My work has focused on outdoor and indoor air pollution, including exposure to air pollutants from traffic, gas stations, and petroleum sources, as well as indoor pollutants like secondhand exposure to hookah, cigarettes, or electronic cigarettes. 
 
 My current research interests include modelling air pollution, with a focus on industrial and traffic related pollutants, and understanding the health effects of exposure to gasoline among non-occupationally exposed individuals. 
+
+<br>
 
 <img src="images/headshot2.jpg" style="width:40%; display: block; margin: 0 auto">
 
