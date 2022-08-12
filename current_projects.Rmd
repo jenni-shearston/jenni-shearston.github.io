@@ -9,8 +9,10 @@ title: "Current Projects"
 <br>
 
 ##**Exposures at Gas Stations**  
-* Mentor: [Markus Hilpert](https://www.mailman.columbia.edu/people/our-faculty/mh3632)  
-* Objectives: The goals of this project are (1) to quantify exposures to gasoline from typical vehicle refueling at gas stations using a number of environmental monitoring methods, and (2) to estimate exposures to gasoline from venting through underground storage tank vent pipes.  
+* Objectives: The goals of this project are (1) to quantify exposures to gasoline from typical vehicle refueling at gas stations using a number of environmental monitoring methods, (2) to estimate exposures to gasoline from venting through underground storage tank vent pipes, and (3) to quantify exposures to fuel vapor from various sources at gas stations.
+* Publications: 
+    + [Gasoline Vapor Emissions During Vehicle Refueling Events in a Vehicle Fleet Saturated with Onboard Refueling Vapor Recovery Systems: Need for an Exposure Assessment](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7020915/)
+    + [Benzene Emissions from Gas Station Clusters: A New Framework for Estimating Lifetime Cancer Risk](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8172828/)
 
 <br>
 
