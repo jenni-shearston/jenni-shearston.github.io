@@ -1,37 +1,50 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
 <title>Current Projects</title>
 
+<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
-<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
-<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -44,37 +57,10 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
 
 
-</head>
 
-<body>
+
 
 <style type = "text/css">
 .main-container {
@@ -82,13 +68,8 @@ h6 {
   margin-left: auto;
   margin-right: auto;
 }
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
-}
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -99,44 +80,56 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 61px;
-  padding-bottom: 40px;
+.dropdown-submenu {
+  position: relative;
 }
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 66px;
-  margin-top: -66px;
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
 }
-
-.section h2 {
-  padding-top: 66px;
-  margin-top: -66px;
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
 }
-.section h3 {
-  padding-top: 66px;
-  margin-top: -66px;
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
 }
-.section h4 {
-  padding-top: 66px;
-  margin-top: -66px;
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
 }
-.section h5 {
-  padding-top: 66px;
-  margin-top: -66px;
+.dropdown-submenu.pull-left {
+  float: none;
 }
-.section h6 {
-  padding-top: 66px;
-  margin-top: -66px;
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -147,26 +140,93 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
-
-
-<div class="container-fluid main-container">
 
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -221,7 +281,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -233,31 +293,51 @@ $(document).ready(function () {
 <hr />
 <p><img src="images/mailman.png" style="width:50%; display: block; margin: 0 auto"></p>
 <p><br></p>
-<div id="exposures-at-gas-stations" class="section level2">
-<h2><strong>Exposures at Gas Stations</strong></h2>
+<div id="traffic-related-air-pollution" class="section level4">
+<h4><strong>Traffic-Related Air Pollution</strong></h4>
+<p>Air pollution from traffic is a pernicious exposure globally, and has been tied to numerous negative health outcomes. I am interested in studying the impact of policies (such as stay-at-home orders, or road tolls) or events (the opening of a warehouse) on traffic, traffic-related air pollution, and health outcomes. In particular, it is critical to evaluate how changes in traffic impact disadvantaged communities and to partner with communities to collect hyper-local data and investigate traffic and air pollution changes in response to municipal policies.</p>
+<p><img src="images/Jenni_install_radar1.png" style="width:35%" ALIGN="right" HSPACE="40" VSPACE="10" /></p>
+<div id="the-south-bronx" class="section level6">
+<h6><em>The South Bronx</em></h6>
+<p>Partnering with <a href="https://www.southbronxunite.org">South Bronx Unite</a>, we are actively monitoring traffic and air pollution in the Mott Haven and Port Morris communities. Continued industrial development in these neighborhoods has increased traffic, potentially contributing to the already high burden of childhood asthma. For this project, we aim to: (1) measure traffic changes over time, (2) assess traffic related air pollution, and (3) increase capacity for community monitoring.</p>
+<p><img src="images/SBU_01182020_presentation_picture.jpg" style="width:35%" HSPACE="40" VSPACE="10" /></p>
 <ul>
-<li>Mentor: <a href="https://www.mailman.columbia.edu/people/our-faculty/mh3632">Markus Hilpert</a><br />
-</li>
-<li>Objectives: The goals of this project are (1) to quantify exposures to gasoline from typical vehicle refueling at gas stations using a number of environmental monitoring methods, and (2) to estimate exposures to gasoline from venting through underground storage tank vent pipes.</li>
+<li>Select Publications:
+<ul>
+<li><a href="https://www.mdpi.com/1660-4601/17/9/3208">Opening a Large Delivery Service Warehouse in the South Bronx: Impacts on Traffic, Air Pollution, and Noise</a></li>
+<li><a href="https://www.sciencedirect.com/science/article/pii/S0048969721034070">Social-distancing Fatigue: Evidence from Real-time Crowd-sourced Traffic Data</a></li>
+</ul></li>
 </ul>
 <p><br></p>
 </div>
-<div id="pesticides-and-parkinsons-disease" class="section level2">
-<h2><strong>Pesticides and Parkinson’s Disease</strong></h2>
+</div>
+<div id="menstruation-and-environmental-health" class="section level4">
+<h4><strong>Menstruation and Environmental Health</strong></h4>
+<p>Menstruation is a vastly understudied health process in environmental health. I am interested in understanding how menstruation is related to chemical exposures and excretion, and how this could impact health. For example, tampons, which are composed of cotton and rayon, can contain contaminants such as metals and endocrine disrupting chemicals. Additionally, menstruation is likely an excretion route for PFAS in the body.</p>
+<p>We are currently measuring concentrations of various pesticides and metals in a selection of popular US tampon brands, and are conducting an epidemiologic study of the relationship between tampon use metals in the Study of Environment, Lifestyle, and Fibroids (SELF) cohort.</p>
 <ul>
-<li>Mentor: <a href="https://www.mailman.columbia.edu/people/our-faculty/mk3961">Marianthi-Anna Kioumourtzoglou</a><br />
-</li>
-<li>Objectives: This project uses a number of mixtures approaches to determine the potential association between agricultural pesticide use in New York State and county level Parkinson’s related hospital admissions, using data from the United States Geologic Service and New York State’s Statewide Planning and Research Cooperative System (SPARCS).</li>
+<li>Publications:
+<ul>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/35302185/">Menstrual Products as a Source of Environmental Chemical Exposure: A Review from the Epidemiologic Perspective</a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/35267175/">An Epidemiologic Review of Menstrual Blood Loss as an Excretion Route for Per- and Polyfluoroalkyl Substances</a></li>
+</ul></li>
 </ul>
 <p><br></p>
 </div>
-<div id="traffic-related-air-pollution" class="section level2">
-<h2><strong>Traffic Related Air Pollution</strong></h2>
+<div id="exposures-at-gas-stations" class="section level4">
+<h4><strong>Exposures at Gas Stations</strong></h4>
+<p>Gas stations are sources of exposure for numerous dangerous chemicals and mixtures, including vehicle exhaust, vaporized fuel, and liquid fuel, which contain harmful aromatics (benzene, toluene) and other chemicals (black carbon, particles). Individuals can be exposed to these mixtures when they refuel their vehicles, work at gas stations, or happen to live or work in close proximity to a gas station. At particular risk are the thousands of employees who work as gas station attendants pumping gas for customers, for example in the state of New Jersey, where self-service is illegal. Despite these risks, there is limited knowledge on exposures and potential health impacts at gas stations, especially in the United States. The goals of this project are (1) to quantify exposures to gasoline from typical vehicle refueling at gas stations using a number of environmental monitoring methods, (2) to estimate exposures to gasoline from venting through underground storage tank vent pipes, and (3) to quantify exposures to fuel vapor from various sources at gas stations.</p>
 <ul>
-<li>Mentors: <a href="https://www.mailman.columbia.edu/people/our-faculty/mh3632">Markus Hilpert</a> &amp; <a href="https://www.mailman.columbia.edu/people/our-faculty/mk3961">Marianthi-Anna Kioumourtzoglou</a><br />
+<li>Publications:
+<ul>
+<li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7020915/">Gasoline Vapor Emissions During Vehicle Refueling Events in a Vehicle Fleet Saturated with Onboard Refueling Vapor Recovery Systems: Need for an Exposure Assessment</a><br />
 </li>
-<li>Objectives: This project uses multiple methods, including radar counters and open source traffic data, to estimate traffic related air pollution. In addition, it evaluates the impacts of the opening of a large distribution center in a South Bronx neighborhood, and its impacts on traffic and air pollution.</li>
+<li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8172828/">Benzene Emissions from Gas Station Clusters: A New Framework for Estimating Lifetime Cancer Risk</a><br />
+<br> <img src="images/s11_IR_0025.jpg" style="float:left;width:40%;margin-right:2%;margin-bottom:0.5em;"><img src="images/DSC00470_vid38.jpg" style="float:left;width:40%;margin-right:2%;margin-bottom:0.5em;">
+<p style="clear: both;"></li>
+</ul></li>
 </ul>
+<p><br></p>
 </div>
 
 
@@ -269,7 +349,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -277,6 +357,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
