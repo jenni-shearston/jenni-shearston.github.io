@@ -1,17 +1,8 @@
 ---
-title: "Jenni A. Shearston, MPH"
+title: "Jenni A. Shearston"
 ---
 
 ***
-
-<div class="jumbotron">
-  <h1 class="display-3">Hello and Welcome!</h1>
-  <p class="lead"> </p>
-  <hr class="my-4">
-  <p> I am an environemental epidemiologist with an interest in  environmental monitoring, air pollution, public health surveillance, and social justice. I am currently a PhD student at the Mailman School of Public Health at Columbia University, in the Department of Environmental Health Sciences.</p>
-  <p class="lead">
-  </p>
-</div>
 
 <center>
 
@@ -21,16 +12,15 @@ title: "Jenni A. Shearston, MPH"
 
 <br>
 
-
-**My CV is available [here](Curriculum Vitae 06.01.19.pdf).**
-
-<br>
-
-During my public health career, I've worked on numerous projects in the United States and abroad, ranging from work measuring volatile organic compound emissions at gas stations in the US to developing epidemiologic surveys to measure smoking rates in the United Arab Emirates. My work has focused on outdoor and indoor air pollution, including exposure to air pollutants from traffic, gas stations, and petroleum sources, as well as indoor pollutants like secondhand exposure to hookah, cigarettes, or electronic cigarettes. 
+**Hello!** I'm an environmental epidemiologist with an interest in  environmental monitoring, environmental justice, and community/science partnerships. During my public health career, I've worked on numerous projects in the United States and abroad, ranging from measuring volatile organic compound emissions at gas stations in the US to developing epidemiologic surveys to measure smoking rates in the United Arab Emirates. My work has focused primarily on outdoor and indoor air pollution, including exposure to air pollutants from traffic, gas stations, and petroleum sources, as well as indoor pollutants like secondhand exposure to hookah, cigarettes, or electronic cigarettes. Recently, I've began studying the intersection of menstruation and environmental health, and am particularly interested in understanding how menstruation might be a route of exposure to environmental chemicals (for example expsoure to pesticides through use of cotton tampons) and an excretion route (for example of PFAS in blood). 
 
 <br>
 
-My current research interests include modelling air pollution, with a focus on industrial and traffic related pollutants, and understanding the health effects of exposure to gasoline among non-occupationally exposed individuals. 
+I am currently searching for a postdoc position. If you have any available openings, please feel free to message me at js5431.@cumc.columbia.edu. 
+
+<br>
+
+#### **My CV is available [here](Curriculum Vitae 06.01.19.pdf).**
 
 </p>
 <br>
