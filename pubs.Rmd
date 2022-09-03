@@ -3,38 +3,62 @@ title: "Publications"
 ---
 ***
 
-## Selected Publications
+<p style="text-align:center;"><img src="images/Jenni_and_Tiger.png" alt="BrookPark" Align="right" width="250" height="400">
+</p>
 
-### Manuscripts in Progress
-1.  Effects of exposure to direct and secondhand hookah and e-cigarette aerosols on ambient air quality and cardiopulmonary health in adults and children: protocol for a panel study (Shearston et al., submitted)
-2.  Gasoline Vapor Emissions During Vehicle Refueling Events, New York City (Jenni Shearston and Markus Hilpert, in preparation)
-3.  Impacts of a Distribution Center on a Community in the South Bronx (in preparation)
-4.  Effects of Electronic Cigarettes and Hookah Water Pipe Use on Home Air Quality (Shearston et al., in preparation)
+#### Manuscripts in Progress
+* (Submitted) Rowland ST+, **Shearston JA+**, Cole J, Chillrud SN, Martinez ME, Hilpert H. (2022). A Reproducible Method for Acquisition, Processing, and Analysis of Crowd-Sensed Traffic Data at User-Specified Spatial Scales. *+ Shared first author*
+* (Submitted) **Shearston JA**, Cerna-Turoff I, Hilpert M, Kioumourtzoglou M-A. (2022). Quantifying Changes in NO2 Due to COVID-19 Related Stay-at-home Orders in New York City.
+* (In preparation) **Shearston JA**, Geller RJ, Harmon Q, Upson K, Wise LA, Wesselink AK, Wegienka GR, Baird DD, Kioumourtzoglou M-A. (2022). Tampons as a Source of Exposure to Metals Among Reproductive-aged Black Women. 
+* (In preparation) **Shearston JA**, Kioumourtzoglou M-A. (2022). How Many Hours after Exposure to NO2 is Risk of Myocardial Infarction Elevated?
+
+<br>
+
+#### Traffic-related Air Pollution
+
+* Benavides J, Rowland ST, **Shearston JA**, Nunez Y, Jack DW, Kioumourtzoglou MA. (2022). [Methods for Evaluating Environmental Health Impacts at Different Stages of the Policy Process in Cities.](https://pubmed.ncbi.nlm.nih.gov/35389203/) Curr Environ Health Rep. doi: 10.1007/s40572-022-00349-5
+
+* Li M, Hilpert M, Goldsmith J, Brooks JL, **Shearston JA**, Chillrud SN, Ali T, Umans JG, Best LG, Yracheta J, van Donkelaar A, Martin RV, Navas-Acien A, Kioumourtzoglou MA. (2022). [Air Pollution in American Indian Versus Non-American Indian Communities, 2000-2018.](https://pubmed.ncbi.nlm.nih.gov/35319962/) Am J Public Health; 112, 615-623. doi: 10.2105/AJPH.2021.306650
+
+* **Shearston JA**, Martinez ME, Nunez Y, Hilpert M. (2021). [Social Distancing Fatigue in Manhattan during the COVID-19 Pandemic: Evidence from Real-time Traffic.](Social Distancing Fatigue in Manhattan during the COVID-19 Pandemic: Evidence from Real-time Traffic.) Sci Tot Environ. doi: 10.1016/j.scitotoenv.2021.148336
+
+* **Shearston JA**, Johnson AM, Domingo-Relloso A, Kioumourtzoglou MA, Hernández D, Ross J, Chillrud SN, Hilpert M. (2020). [Opening a Large Delivery Service Warehouse in the South Bronx: Impacts on Traffic, Air Pollution, and Noise.](https://www.mdpi.com/1660-4601/17/9/3208) Int J Environ Public Health; 17(9). doi: 10.3390/ijerph17093208. PMCID: PMC7246477 
 
 <br>
 
-### Hookah, Electronic Cigarettes, and Cigarettes
-1.  Weitzman M, Yusufali AH, Bali F, Vilcassim MJ, Gandhi S, Peltier R, Nadas A, Sherman S, Lee L, Hong Z, **Shearston J**, Park SH, Gordon T. [Effects of hookah smoking on indoor air quality.](https://www.ncbi.nlm.nih.gov/pubmed/27798320) Tob Control. 2016, Oct 26. pii: tobaccocontrol-2016-053165.  
+#### Menstruation and Environmental Health
 
-2.  **Shearston JA**, Shah K, Cheng E, Moosvi R, Park SH, Patel N, Spielman AI, Weitzman M. [Dental, Dental Hygiene, and Advanced Dental Students’ Use, Knowledge, and Beliefs Regarding Tobacco Products.](https://www.ncbi.nlm.nih.gov/pubmed/29093145) J Dental Educ. 2017, Nov:81(11):1317-1326. doi: 10.21815/JDE.017.091.  
+* Upson K, **Shearston JA**, Kioumourtzoglou MA. (2022). [An Epidemiologic Review of Menstrual Blood Loss as an Excretion Route for Per- and Polyfluoroalkyl Substances.](https://pubmed.ncbi.nlm.nih.gov/35267175/) Curr Environ Health Rep; 9, 29-37. doi: 10.1007/s40572-022-00332-0
 
-3.  Park SH, Duncan D, El Shahawy O, Lee L, **Shearston JA**, Tamura K, Sherman SE, Weitzman M. [Characteristics of Adults Who Switched from Cigarette Smoking to E-cigarettes.](https://www.ncbi.nlm.nih.gov/pubmed/28864130) Am J Prev Med. 2017, Aug 22.  pii: S0749-3797(17)30363-X. doi: 10.1016/j.amepre.2017.06.033.  
-
-4.  Cawkwell PB, Lee L, **Shearston J**, Sherman SE, Weitzman M. [The Difference a Decade Makes: Smoking Cessation Counseling and Screening at Pediatric Visits.](https://www.ncbi.nlm.nih.gov/pubmed/27613894) Nicotine Tob Res. 2016, July11. pii: ntw146.  
-
-5.  Park SH, Lee L, **Shearston JA**, Weitzman M. [Patterns of Electronic Cigarette Use and Level of Psychological Distress.](https://www.ncbi.nlm.nih.gov/pubmed/28278239) PLoS ONE. 2017, Mar 9;12(3):e0173625.  
- 
-<br>
-
-### Opioid Use
-1.  Palamar JJ, **Shearston JA**, Cleland CM. [Discordant reporting of nonmedical opioid use in a nationally representative sample of US high school seniors.](https://www.ncbi.nlm.nih.gov/pubmed/27315427) Am J Drug Alcohol Abuse. 2016, Jun 17:1-9.  
-
-2.  Palamar JJ and **Shearston JA**. [Nonmedical Opioid Use in Relation to Recency of Heroin Use in a Nationally Representative Sample of Adults in the United States. ](https://www.ncbi.nlm.nih.gov/pubmed/28895798) J Psychoactive Drugs. 2017, Sep 12:1-8.   
-
-3. Palamar JJ, **Shearston JA**, Dawson EW, Mateu-Gelabert P, Ompad DC. [Nonmedical opioid use and heroin use in a nationally representative sample of US high school seniors.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4698068/) Drug Alcohol Depen. 2016;1(158):132-8.  
+* Upson K, **Shearston JA**, Kioumourtzoglou MA. (2022). [Menstrual Products as a Source of Environmental Chemical Exposure: A Review from the Epidemiologic Perspective.](https://pubmed.ncbi.nlm.nih.gov/35302185/) Curr Environ Health Rep; 9, 38-52. doi: 10.1007/s40572-022-00331-1
 
 <br>
- 
-####***For a full list of publications please see my ORCID page [here.](https://orcid.org/0000-0002-3277-9958)***
+
+#### Gas Stations
+
+* **Shearston JA**, Hilpert M. (2020). [Gasoline Vapor Emissions During Vehicle Refueling Events in a Vehicle Fleet Saturated with Onboard Refueling Vapor Recovery Systems: Need for an Exposure Assessment.](https://pubmed.ncbi.nlm.nih.gov/32117853/) Front Public Health; 8(18). doi: 10.3389/fpubh.2020.00018. PMCID: PMC7020915
+
+* Hsieh PY, **Shearston JA**, Hilpert M. (2021). [Benzene Emissions from Gas Station Clusters: A New Framework for Estimating Lifetime Cancer Risk.](https://pubmed.ncbi.nlm.nih.gov/34150235/) J Environ Health Sci Engineer; doi: 10.1007/s40201-020-00601-w
 
 <br>
+
+#### Hookah, Electronic Cigarettes, and Cigarettes
+
+* Al-Marzooq F, Al Kawas S, Rahman B, **Shearston JA,** Saad H, Benzina D, Weitzman M. (2022). [Supragingival Microbiome Alterations as a Consequence of Smoking Different Tobacco Types and its Relation to Dental Caries.](https://www.nature.com/articles/s41598-022-06907-z) Sci Rep; 12, 2861. doi: 10.1038/s41598-022-06907-z
+
+* **Shearston JA**, Eazor J, Lee L, Vilcassim R, Reed T, Ort D, Weitzman M, Gordon T. (2021). [Effects of Electronic Cigarettes and Hookah Water Pipe Use on Home Air Quality.](https://pubmed.ncbi.nlm.nih.gov/34021062/) Tob Control. doi: 10.1136/tobaccocontrol-2020-056437 
+
+* **Shearston JA**, Lee L, Eazor J, Meherally S, Park SH, Vilcassim MJR, Weitzman M, Gordon T. (2019). [Effects of Exposure to Direct and Secondhand Hookah and E-Cigarette Aerosols on Ambient Air Quality and Cardiopulmonary Health in Adults and Children: Protocol For A Panel Study.](https://pubmed.ncbi.nlm.nih.gov/31239307/) BMJ Open; 9(6) e029490. doi: 10.1136/bmjopen-2019-029490. PMCID: PMC6597628
+
+* **Shearston JA**, Shah K, Cheng E, Moosvi R, Park SH, Patel N, Spielman AI, Weitzman M. (2017). [Dental, Dental Hygiene, and Advanced Dental Students’ Use, Knowledge, and Beliefs Regarding Tobacco Products.](https://www.ncbi.nlm.nih.gov/pubmed/29093145) J Dental Educ; Nov:81(11):1317-1326. doi: 10.21815/JDE.017.091.  
+
+* Weitzman M, Yusufali AH, Bali F, Vilcassim MJ, Gandhi S, Peltier R, Nadas A, Sherman S, Lee L, Hong Z, **Shearston JA**, Park SH, Gordon T. (2016). [Effects of hookah smoking on indoor air quality.](https://www.ncbi.nlm.nih.gov/pubmed/27798320) Tob Control; pii: tobaccocontrol-2016-053165.  
+
+<br>
+
+#### ***For a full list of publications please see my [ORCID page](https://orcid.org/0000-0002-3277-9958) or [Google scholar profile](https://scholar.google.com/citations?hl=en&user=eHtRF7EAAAAJ)***
+
+<br>
+
+
+
