@@ -1,10 +1,20 @@
 ---
-title: "Publications"
+title: "Grants & Select Publications"
 ---
 ***
 
+### Grants
+
+NIEHS Award F31 ES033098. Role: PI. "Impact of COVID-19 related stay-at-home orders on traffic, traffic-related air pollution, and cardiovascular health in New York City." September 1, 2021 - August 30, 2023. $32,849
+
+NIEHS Center Pilot Award P30ES009089. Role: Co-I. "Tampons as a source of pesticide and metal exposure: A novel exposure assessment study." April 1, 2022 - March 31, 2023. $35,000
+
 <p style="text-align:center;"><img src="images/Jenni_and_Tiger.png" alt="BrookPark" Align="right" width="250" height="400" HSPACE="40" VSPACE="10">
 </p>
+
+<br>
+
+### Selected Publications
 
 #### Manuscripts in Progress
 * (Submitted) Rowland ST+, **Shearston JA+**, Cole J, Chillrud SN, Martinez ME, Hilpert H. (2022). A Reproducible Method for Acquisition, Processing, and Analysis of Crowd-Sensed Traffic Data at User-Specified Spatial Scales. *+ Shared first author*
@@ -60,5 +70,5 @@ title: "Publications"
 
 <br>
 
-
+***
 
