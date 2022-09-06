@@ -4,11 +4,14 @@ title: "Jenni A. Shearston"
 
 ***
 
-<center>
-
 <img src="images/js5431-001.jpg" style="width:28%" ALIGN="right" HSPACE="40" VSPACE="10" /> 
 
 <p style="font-size:24px">
+
+### PhD Candidate
+### Environmental Health Siences
+#### Mailman School of Public Health
+#### Columbia University 
 
 <br>
 
@@ -16,20 +19,30 @@ title: "Jenni A. Shearston"
 
 <br>
 
-I am currently searching for a postdoc position. If you have any available openings, please feel free to message me at [js5431.@cumc.columbia.edu](mailto:<js5431@cumc.columbia.edu>) 
+### <i class="far fa-address-card fa-lg"></i>
 
+Jenni A. Shearston
 <br>
+[Department of Environmental Health Sciences](https://www.mailman.columbia.edu/become-student/departments/environmental-health-sciences-ehs)
 <br>
-
-#### **[CV](Curriculum Vitae 06.01.19.pdf)**
-#### **[Google Scholar](https://scholar.google.com/citations?hl=en&user=eHtRF7EAAAAJ)**
+[Columbia Mailman School of Public Health](https://www.mailman.columbia.edu/)
+<br>
+722 West 168th Street
+<br>
+New York, New York 10032
+<br>
+Email: [js5431.@cumc.columbia.edu](mailto:<js5431@cumc.columbia.edu>)
+<br>
+**[CV](Curriculum Vitae 09.06.22.pdf)**
+<br>
+**[NCBI - My Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/1DQxtak6xiwwn5/bibliography/public/)**
 </p>
+
 <br>
 <br>
 
 ***
 
-</center>
 
 
 
