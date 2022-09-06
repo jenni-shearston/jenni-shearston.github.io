@@ -6,7 +6,7 @@ title: "Jenni A. Shearston"
 
 <center>
 
-<img src="images/js5431-001.jpg" style="width:32%" ALIGN="right" HSPACE="40" VSPACE="10" /> 
+<img src="images/js5431-001.jpg" style="width:28%" ALIGN="right" HSPACE="40" VSPACE="10" /> 
 
 <p style="font-size:24px">
 
