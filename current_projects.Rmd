@@ -4,21 +4,21 @@ title: "Current Projects"
 
 ***
 
-<img src="images/mailman.png" style="width:50%; display: block; margin: 0 auto">
 
+<img src="images/mailman.png" style="width:35%; display: block; margin: 0 auto">
 <br>
 
 #### **Traffic-Related Air Pollution**
 
 Air pollution from traffic is a pernicious exposure globally, and has been tied to numerous negative health outcomes. I am interested in studying the impact of policies (such as stay-at-home orders, or road tolls) or events (the opening of a warehouse) on traffic, traffic-related air pollution, and health outcomes. In particular, it is critical to evaluate how changes in traffic impact disadvantaged communities and to partner with communities to collect hyper-local data and investigate traffic and air pollution changes in response to municipal policies.
 
-<img src="images/Jenni_install_radar1.png" style="width:35%" ALIGN="right" HSPACE="40" VSPACE="10" />
+<img src="images/Jenni_install_radar1.png" style="width:30%" ALIGN="right" HSPACE="15" VSPACE="5">
 
 ###### *The South Bronx*
 
 Partnering with [South Bronx Unite](https://www.southbronxunite.org), we are actively monitoring traffic and air pollution in the Mott Haven and Port Morris communities. Continued industrial  development in these neighborhoods has increased traffic, potentially contributing to the already high burden of childhood asthma. For this project, we aim to: (1) measure traffic changes over time, (2) assess traffic related air pollution, and (3) increase capacity for community monitoring. 
 
-<img src="images/SBU_01182020_presentation_picture.jpg" style="width:35%" HSPACE="40" VSPACE="10" /> 
+<img src="images/SBU_01182020_presentation_picture.jpg" style="width:45%" HSPACE="40" VSPACE="10" /> 
 
 * Select Publications:
   + [Opening a Large Delivery Service Warehouse in the South Bronx: Impacts on Traffic, Air Pollution, and Noise](https://www.mdpi.com/1660-4601/17/9/3208)
