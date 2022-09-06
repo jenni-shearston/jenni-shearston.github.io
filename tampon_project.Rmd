@@ -1,0 +1,51 @@
+---
+title: "New Project!"
+---
+
+***
+
+## Contaminants in Tampons
+<br>
+
+#### Overview
+
+<img src="images/bioavailability_tampon_contaminants.jpg" style="width:40%"  HSPACE="15" VSPACE="5" align="right"/>
+
+Menstruation is a vastly understudied topic in environmental health sciences, despite being a monthly occurrence for a large portion of the population. It is possible that the bodily process, and the products we use to manage it, may be a source of both exposure to potential environmental contaminants, such as pesticides and metals that may be found in the cotton used to manufacture tampons,^1^ and a source of excretion, for example of PFAS chemicals in the body.^2^ I first became interested in studying tampons in 2019, when my co-advisor Dr. Kioumourtzoglou presented on [tampons as a source of exposure to metals in the BioCycle study](https://pubmed.ncbi.nlm.nih.gov/30744632/) at the 2019 International Society for Environmental Epidemiology annual conference. 
+
+Since then, we have begun working more earnestly on the problem of understanding if and how tampons might contribute to exposure to environmental chemicals. We are currently analyzing tampons from several major US brands to determine if they contain pesticides and metals. We will then determine the leachable fraction of such contaminants, if they exist, in menstrual blood samples collected from human subjects. We hypothesize that contaminants in tampons might leach out when tampons are saturated with menstrual fluid over the course of several hours of wear, and then cross the vaginal mucosa into systemic circulation (Figure 1). 
+
+<br>
+<p>
+While we are beginning to study this important topic, there are many important research directions to explore:
+</p>
+<ol type="1">
+<li>Are contaminants (e.g., pesticides, emtals, EDCs, others) present in tampons?</li>
+<li>Do contaminants leach from tampons into absorbed menstrual fluid?</li>
+<li>Does absorption of environmental contaminants through vaginal mucosa occur?</li>
+<li>Are contaminants transported to target organs through systemic circulation?</li>
+<li>What adverse health outcomes might occur through exposure?</li>
+</ol>
+
+<br>
+
+Add image from lab.
+
+<br>
+
+#### Tampons & Metals in the SELF Cohort
+
+In the Study of Environment, Lifestyle and Fibroids [(SELF)](https://detroitself.org) we are currently investigating relationships between tampon use and blood metal concentrations. 
+
+<br>
+<p style="font-size:10px;">
+^1^ Upson K, Shearston JA, Kioumourtzoglou MA. (2022). Menstrual Products as a Source of Environmental Chemical Exposure: A Review from the Epidemiologic Perspective. Curr Environ Health Rep; 9, 38-52. doi: 10.1007/s40572-022-00331-1
+<br>
+^2^ Upson K, Shearston JA, Kioumourtzoglou MA. (2022). An Epidemiologic Review of Menstrual Blood Loss as an Excretion Route for Per- and Polyfluoroalkyl Substances. Curr Environ Health Rep; 9, 29-37. doi: 10.1007/s40572-022-00332-0
+</p>
+<br>
+
+***
+
+
+
