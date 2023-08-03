@@ -10,9 +10,9 @@ navbar:
     - text: "Fun"
       href: fun.html
     - text: "cv"
-      href: Curriculum Vitae 09.12.22.pdf
+      href: Curriculum Vitae 08.03.23.pdf
     - icon: fa-envelope fa-lg
-      href: mailto:<js5431@cumc.columbia.edu>
+      href: mailto:<jshearston@berkeley.edu>
     - icon: fa-github fa-lg
       href: http://github.com/jenni-shearston/
     - icon: fa-linkedin fa-lg
