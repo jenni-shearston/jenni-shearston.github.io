@@ -13,8 +13,8 @@
 
 <title>Grants &amp; Select Publications</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -139,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -172,8 +180,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -181,16 +189,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -234,7 +235,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -293,8 +294,13 @@ $(document).ready(function () {
 <hr />
 <div id="grants" class="section level3">
 <h3>Grants</h3>
-<p>NIEHS Award F31 ES033098. Role: PI. “Impact of COVID-19 related stay-at-home orders on traffic, traffic-related air pollution, and cardiovascular health in New York City.” September 1, 2021 - August 30, 2023. $32,849</p>
-<p>NIEHS Center Pilot Award P30ES009089. Role: Co-I. “Tampons as a source of pesticide and metal exposure: A novel exposure assessment study.” April 1, 2022 - March 31, 2023. $35,000</p>
+<p>NIEHS Award F31 ES033098. Role: PI. “Impact of COVID-19 related
+stay-at-home orders on traffic, traffic-related air pollution, and
+cardiovascular health in New York City.” September 1, 2021 - August 30,
+2023. $32,849</p>
+<p>NIEHS Center Pilot Award P30ES009089. Role: Co-I. “Tampons as a
+source of pesticide and metal exposure: A novel exposure assessment
+study.” April 1, 2022 - March 31, 2023. $35,000</p>
 <p style="text-align:center;">
 <img src="images/Jenni_and_Tiger.png" alt="BrookPark" Align="right" width="250" height="400" HSPACE="40" VSPACE="10">
 </p>
@@ -305,54 +311,143 @@ $(document).ready(function () {
 <div id="manuscripts-in-progress" class="section level4">
 <h4>Manuscripts in Progress</h4>
 <ul>
-<li>(In preparation) <strong>Shearston JA</strong>, Upson K, Balac O, Do V, Gordon M, Nguyen K, Yan B, Kioumourtzoglou MA, Schilling K. (2023). Tampons as a Source of Exposure to Metal(loid)s.</li>
-<li>(In preparation) <strong>Shearston JA</strong>, Saxena R, Casey JA, Kioumourtzoglou MA, Hilpert M. (2023). Variation in the Impact of New York on Pause on Traffic Congestion by Racialized Economic Segregation and Environmental Burden.</li>
-<li>(Submitted) Rowland ST+, <strong>Shearston JA+</strong>, Cole J, Chillrud SN, Martinez ME, Hilpert H. (2023). A Reproducible Method for Acquisition, Processing, and Analysis of Crowd-Sensed Traffic Data at User-Specified Spatial Scales. <em>+ Shared first author</em></li>
-<li>(In preparation) <strong>Shearston JA</strong>, Geller RJ, Harmon Q, Upson K, Wise LA, Wesselink AK, Wegienka GR, Baird DD, Kioumourtzoglou M-A. (2023). Tampons as a Source of Exposure to Metals Among Reproductive-aged Black Women.</li>
+<li>(In preparation) <strong>Shearston JA</strong>, Upson K, Balac O, Do
+V, Gordon M, Nguyen K, Yan B, Kioumourtzoglou MA, Schilling K. (2023).
+Tampons as a Source of Exposure to Metal(loid)s.</li>
+<li>(In preparation) <strong>Shearston JA</strong>, Saxena R, Casey JA,
+Kioumourtzoglou MA, Hilpert M. (2023). Variation in the Impact of New
+York on Pause on Traffic Congestion by Racialized Economic Segregation
+and Environmental Burden.</li>
+<li>(Submitted) Rowland ST+, <strong>Shearston JA+</strong>, Cole J,
+Chillrud SN, Martinez ME, Hilpert H. (2023). A Reproducible Method for
+Acquisition, Processing, and Analysis of Crowd-Sensed Traffic Data at
+User-Specified Spatial Scales. <em>+ Shared first author</em></li>
+<li>(In preparation) <strong>Shearston JA</strong>, Geller RJ, Harmon Q,
+Upson K, Wise LA, Wesselink AK, Wegienka GR, Baird DD, Kioumourtzoglou
+M-A. (2023). Tampons as a Source of Exposure to Metals Among
+Reproductive-aged Black Women.</li>
 </ul>
 <p><br></p>
 </div>
 <div id="traffic-related-air-pollution" class="section level4">
 <h4>Traffic-related Air Pollution</h4>
 <ul>
-<li><p><strong>Shearston JA</strong>, Rowland ST, Butt T, Chillrud SN, Casey JA, Edmondson D, Hilpert M, Kioumourtzoglou MA. (2023). <a href="https://www.sciencedirect.com/science/article/pii/S0160412023003598">Can Traffic-related Air Pollution Trigger Myocardial Infarction within a Few Hours of Exposure? Identifying Hourly Hazard Periods</a> Environ Int; 178. doi: 10.1016/j.envint.2023.108086</p></li>
-<li><p><strong>Shearston JA</strong>, Cerna-Turoff I, Hilpert M, Kioumourtzoglou M-A. (2022). <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9580220/">Quantifying Changes in NO2 Due to COVID-19 Related Stay-at-home Orders in New York City</a> Hyg Environ Health Adv; Dec, 4. doi: 10.1016/j.heha.2022.100032</p></li>
-<li><p>Benavides J, Rowland ST, <strong>Shearston JA</strong>, Nunez Y, Jack DW, Kioumourtzoglou MA. (2022). <a href="https://pubmed.ncbi.nlm.nih.gov/35389203/">Methods for Evaluating Environmental Health Impacts at Different Stages of the Policy Process in Cities.</a> Curr Environ Health Rep. doi: 10.1007/s40572-022-00349-5</p></li>
-<li><p>Li M, Hilpert M, Goldsmith J, Brooks JL, <strong>Shearston JA</strong>, Chillrud SN, Ali T, Umans JG, Best LG, Yracheta J, van Donkelaar A, Martin RV, Navas-Acien A, Kioumourtzoglou MA. (2022). <a href="https://pubmed.ncbi.nlm.nih.gov/35319962/">Air Pollution in American Indian Versus Non-American Indian Communities, 2000-2018.</a> Am J Public Health; 112, 615-623. doi: 10.2105/AJPH.2021.306650</p></li>
-<li><p><strong>Shearston JA</strong>, Martinez ME, Nunez Y, Hilpert M. (2021). <a href="Social%20Distancing%20Fatigue%20in%20Manhattan%20during%20the%20COVID-19%20Pandemic:%20Evidence%20from%20Real-time%20Traffic.">Social Distancing Fatigue in Manhattan during the COVID-19 Pandemic: Evidence from Real-time Traffic.</a> Sci Tot Environ. doi: 10.1016/j.scitotoenv.2021.148336</p></li>
-<li><p><strong>Shearston JA</strong>, Johnson AM, Domingo-Relloso A, Kioumourtzoglou MA, Hernández D, Ross J, Chillrud SN, Hilpert M. (2020). <a href="https://www.mdpi.com/1660-4601/17/9/3208">Opening a Large Delivery Service Warehouse in the South Bronx: Impacts on Traffic, Air Pollution, and Noise.</a> Int J Environ Public Health; 17(9). doi: 10.3390/ijerph17093208. PMCID: PMC7246477</p></li>
+<li><p><strong>Shearston JA</strong>, Rowland ST, Butt T, Chillrud SN,
+Casey JA, Edmondson D, Hilpert M, Kioumourtzoglou MA. (2023). <a
+href="https://www.sciencedirect.com/science/article/pii/S0160412023003598">Can
+Traffic-related Air Pollution Trigger Myocardial Infarction within a Few
+Hours of Exposure? Identifying Hourly Hazard Periods</a> Environ Int;
+178. doi: 10.1016/j.envint.2023.108086</p></li>
+<li><p><strong>Shearston JA</strong>, Cerna-Turoff I, Hilpert M,
+Kioumourtzoglou M-A. (2022). <a
+href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9580220/">Quantifying
+Changes in NO2 Due to COVID-19 Related Stay-at-home Orders in New York
+City</a> Hyg Environ Health Adv; Dec, 4. doi:
+10.1016/j.heha.2022.100032</p></li>
+<li><p>Benavides J, Rowland ST, <strong>Shearston JA</strong>, Nunez Y,
+Jack DW, Kioumourtzoglou MA. (2022). <a
+href="https://pubmed.ncbi.nlm.nih.gov/35389203/">Methods for Evaluating
+Environmental Health Impacts at Different Stages of the Policy Process
+in Cities.</a> Curr Environ Health Rep. doi:
+10.1007/s40572-022-00349-5</p></li>
+<li><p>Li M, Hilpert M, Goldsmith J, Brooks JL, <strong>Shearston
+JA</strong>, Chillrud SN, Ali T, Umans JG, Best LG, Yracheta J, van
+Donkelaar A, Martin RV, Navas-Acien A, Kioumourtzoglou MA. (2022). <a
+href="https://pubmed.ncbi.nlm.nih.gov/35319962/">Air Pollution in
+American Indian Versus Non-American Indian Communities, 2000-2018.</a>
+Am J Public Health; 112, 615-623. doi: 10.2105/AJPH.2021.306650</p></li>
+<li><p><strong>Shearston JA</strong>, Martinez ME, Nunez Y, Hilpert M.
+(2021). <a
+href="Social%20Distancing%20Fatigue%20in%20Manhattan%20during%20the%20COVID-19%20Pandemic:%20Evidence%20from%20Real-time%20Traffic.">Social
+Distancing Fatigue in Manhattan during the COVID-19 Pandemic: Evidence
+from Real-time Traffic.</a> Sci Tot Environ. doi:
+10.1016/j.scitotoenv.2021.148336</p></li>
+<li><p><strong>Shearston JA</strong>, Johnson AM, Domingo-Relloso A,
+Kioumourtzoglou MA, Hernández D, Ross J, Chillrud SN, Hilpert M. (2020).
+<a href="https://www.mdpi.com/1660-4601/17/9/3208">Opening a Large
+Delivery Service Warehouse in the South Bronx: Impacts on Traffic, Air
+Pollution, and Noise.</a> Int J Environ Public Health; 17(9). doi:
+10.3390/ijerph17093208. PMCID: PMC7246477</p></li>
 </ul>
 <p><br></p>
 </div>
 <div id="menstruation-and-environmental-health" class="section level4">
 <h4>Menstruation and Environmental Health</h4>
 <ul>
-<li><p>Upson K, <strong>Shearston JA</strong>, Kioumourtzoglou MA. (2022). <a href="https://pubmed.ncbi.nlm.nih.gov/35267175/">An Epidemiologic Review of Menstrual Blood Loss as an Excretion Route for Per- and Polyfluoroalkyl Substances.</a> Curr Environ Health Rep; 9, 29-37. doi: 10.1007/s40572-022-00332-0</p></li>
-<li><p>Upson K, <strong>Shearston JA</strong>, Kioumourtzoglou MA. (2022). <a href="https://pubmed.ncbi.nlm.nih.gov/35302185/">Menstrual Products as a Source of Environmental Chemical Exposure: A Review from the Epidemiologic Perspective.</a> Curr Environ Health Rep; 9, 38-52. doi: 10.1007/s40572-022-00331-1</p></li>
+<li><p>Upson K, <strong>Shearston JA</strong>, Kioumourtzoglou MA.
+(2022). <a href="https://pubmed.ncbi.nlm.nih.gov/35267175/">An
+Epidemiologic Review of Menstrual Blood Loss as an Excretion Route for
+Per- and Polyfluoroalkyl Substances.</a> Curr Environ Health Rep; 9,
+29-37. doi: 10.1007/s40572-022-00332-0</p></li>
+<li><p>Upson K, <strong>Shearston JA</strong>, Kioumourtzoglou MA.
+(2022). <a href="https://pubmed.ncbi.nlm.nih.gov/35302185/">Menstrual
+Products as a Source of Environmental Chemical Exposure: A Review from
+the Epidemiologic Perspective.</a> Curr Environ Health Rep; 9, 38-52.
+doi: 10.1007/s40572-022-00331-1</p></li>
 </ul>
 <p><br></p>
 </div>
 <div id="gas-stations" class="section level4">
 <h4>Gas Stations</h4>
 <ul>
-<li><p><strong>Shearston JA</strong>, Hilpert M. (2020). <a href="https://pubmed.ncbi.nlm.nih.gov/32117853/">Gasoline Vapor Emissions During Vehicle Refueling Events in a Vehicle Fleet Saturated with Onboard Refueling Vapor Recovery Systems: Need for an Exposure Assessment.</a> Front Public Health; 8(18). doi: 10.3389/fpubh.2020.00018. PMCID: PMC7020915</p></li>
-<li><p>Hsieh PY, <strong>Shearston JA</strong>, Hilpert M. (2021). <a href="https://pubmed.ncbi.nlm.nih.gov/34150235/">Benzene Emissions from Gas Station Clusters: A New Framework for Estimating Lifetime Cancer Risk.</a> J Environ Health Sci Engineer; doi: 10.1007/s40201-020-00601-w</p></li>
+<li><p><strong>Shearston JA</strong>, Hilpert M. (2020). <a
+href="https://pubmed.ncbi.nlm.nih.gov/32117853/">Gasoline Vapor
+Emissions During Vehicle Refueling Events in a Vehicle Fleet Saturated
+with Onboard Refueling Vapor Recovery Systems: Need for an Exposure
+Assessment.</a> Front Public Health; 8(18). doi:
+10.3389/fpubh.2020.00018. PMCID: PMC7020915</p></li>
+<li><p>Hsieh PY, <strong>Shearston JA</strong>, Hilpert M. (2021). <a
+href="https://pubmed.ncbi.nlm.nih.gov/34150235/">Benzene Emissions from
+Gas Station Clusters: A New Framework for Estimating Lifetime Cancer
+Risk.</a> J Environ Health Sci Engineer; doi:
+10.1007/s40201-020-00601-w</p></li>
 </ul>
 <p><br></p>
 </div>
-<div id="hookah-electronic-cigarettes-and-cigarettes" class="section level4">
+<div id="hookah-electronic-cigarettes-and-cigarettes"
+class="section level4">
 <h4>Hookah, Electronic Cigarettes, and Cigarettes</h4>
 <ul>
-<li><p>Al-Marzooq F, Al Kawas S, Rahman B, <strong>Shearston JA,</strong> Saad H, Benzina D, Weitzman M. (2022). <a href="https://www.nature.com/articles/s41598-022-06907-z">Supragingival Microbiome Alterations as a Consequence of Smoking Different Tobacco Types and its Relation to Dental Caries.</a> Sci Rep; 12, 2861. doi: 10.1038/s41598-022-06907-z</p></li>
-<li><p><strong>Shearston JA</strong>, Eazor J, Lee L, Vilcassim R, Reed T, Ort D, Weitzman M, Gordon T. (2021). <a href="https://pubmed.ncbi.nlm.nih.gov/34021062/">Effects of Electronic Cigarettes and Hookah Water Pipe Use on Home Air Quality.</a> Tob Control. doi: 10.1136/tobaccocontrol-2020-056437</p></li>
-<li><p><strong>Shearston JA</strong>, Lee L, Eazor J, Meherally S, Park SH, Vilcassim MJR, Weitzman M, Gordon T. (2019). <a href="https://pubmed.ncbi.nlm.nih.gov/31239307/">Effects of Exposure to Direct and Secondhand Hookah and E-Cigarette Aerosols on Ambient Air Quality and Cardiopulmonary Health in Adults and Children: Protocol For A Panel Study.</a> BMJ Open; 9(6) e029490. doi: 10.1136/bmjopen-2019-029490. PMCID: PMC6597628</p></li>
-<li><p><strong>Shearston JA</strong>, Shah K, Cheng E, Moosvi R, Park SH, Patel N, Spielman AI, Weitzman M. (2017). <a href="https://www.ncbi.nlm.nih.gov/pubmed/29093145">Dental, Dental Hygiene, and Advanced Dental Students’ Use, Knowledge, and Beliefs Regarding Tobacco Products.</a> J Dental Educ; Nov:81(11):1317-1326. doi: 10.21815/JDE.017.091.</p></li>
-<li><p>Weitzman M, Yusufali AH, Bali F, Vilcassim MJ, Gandhi S, Peltier R, Nadas A, Sherman S, Lee L, Hong Z, <strong>Shearston JA</strong>, Park SH, Gordon T. (2016). <a href="https://www.ncbi.nlm.nih.gov/pubmed/27798320">Effects of hookah smoking on indoor air quality.</a> Tob Control; pii: tobaccocontrol-2016-053165.</p></li>
+<li><p>Al-Marzooq F, Al Kawas S, Rahman B, <strong>Shearston
+JA,</strong> Saad H, Benzina D, Weitzman M. (2022). <a
+href="https://www.nature.com/articles/s41598-022-06907-z">Supragingival
+Microbiome Alterations as a Consequence of Smoking Different Tobacco
+Types and its Relation to Dental Caries.</a> Sci Rep; 12, 2861. doi:
+10.1038/s41598-022-06907-z</p></li>
+<li><p><strong>Shearston JA</strong>, Eazor J, Lee L, Vilcassim R, Reed
+T, Ort D, Weitzman M, Gordon T. (2021). <a
+href="https://pubmed.ncbi.nlm.nih.gov/34021062/">Effects of Electronic
+Cigarettes and Hookah Water Pipe Use on Home Air Quality.</a> Tob
+Control. doi: 10.1136/tobaccocontrol-2020-056437</p></li>
+<li><p><strong>Shearston JA</strong>, Lee L, Eazor J, Meherally S, Park
+SH, Vilcassim MJR, Weitzman M, Gordon T. (2019). <a
+href="https://pubmed.ncbi.nlm.nih.gov/31239307/">Effects of Exposure to
+Direct and Secondhand Hookah and E-Cigarette Aerosols on Ambient Air
+Quality and Cardiopulmonary Health in Adults and Children: Protocol For
+A Panel Study.</a> BMJ Open; 9(6) e029490. doi:
+10.1136/bmjopen-2019-029490. PMCID: PMC6597628</p></li>
+<li><p><strong>Shearston JA</strong>, Shah K, Cheng E, Moosvi R, Park
+SH, Patel N, Spielman AI, Weitzman M. (2017). <a
+href="https://www.ncbi.nlm.nih.gov/pubmed/29093145">Dental, Dental
+Hygiene, and Advanced Dental Students’ Use, Knowledge, and Beliefs
+Regarding Tobacco Products.</a> J Dental Educ; Nov:81(11):1317-1326.
+doi: 10.21815/JDE.017.091.</p></li>
+<li><p>Weitzman M, Yusufali AH, Bali F, Vilcassim MJ, Gandhi S, Peltier
+R, Nadas A, Sherman S, Lee L, Hong Z, <strong>Shearston JA</strong>,
+Park SH, Gordon T. (2016). <a
+href="https://www.ncbi.nlm.nih.gov/pubmed/27798320">Effects of hookah
+smoking on indoor air quality.</a> Tob Control; pii:
+tobaccocontrol-2016-053165.</p></li>
 </ul>
 <p><br></p>
 </div>
-<div id="for-a-full-list-of-publications-please-see-my-orcid-page-or-google-scholar-profile" class="section level4">
-<h4><strong><em>For a full list of publications please see my <a href="https://orcid.org/0000-0002-3277-9958">ORCID page</a> or <a href="https://scholar.google.com/citations?hl=en&amp;user=eHtRF7EAAAAJ">Google scholar profile</a></em></strong></h4>
+<div
+id="for-a-full-list-of-publications-please-see-my-orcid-page-or-google-scholar-profile"
+class="section level4">
+<h4><strong><em>For a full list of publications please see my <a
+href="https://orcid.org/0000-0002-3277-9958">ORCID page</a> or <a
+href="https://scholar.google.com/citations?hl=en&amp;user=eHtRF7EAAAAJ">Google
+scholar profile</a></em></strong></h4>
 <p><br></p>
 <hr />
 </div>

@@ -13,8 +13,8 @@
 
 <title>Jenni A. Shearston</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -139,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -172,8 +180,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -181,16 +189,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -234,7 +235,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -293,24 +294,49 @@ $(document).ready(function () {
 <hr />
 <p><img src="images/Shearston_inGrassFieldFromAhlam.jpg" style="width:35%" ALIGN="right" HSPACE="40" VSPACE="10" /></p>
 <p style="font-size:24px">
-<div id="postdoctoral-scholar" class="section level3">
-<h3>Postdoctoral Scholar</h3>
-<div id="environmental-science-policy-management" class="section level4">
-<h4>Environmental Science, Policy, &amp; Management</h4>
+<div id="assistant-professor" class="section level3">
+<h3>Assistant Professor</h3>
+<div id="integrative-physiology" class="section level4">
+<h4>Integrative Physiology</h4>
 </div>
-<div id="school-of-public-health" class="section level4">
-<h4>School of Public Health</h4>
-</div>
-<div id="university-of-california-berkeley" class="section level4">
-<h4>University of California Berkeley</h4>
+<div id="university-of-colorado-boulder" class="section level4">
+<h4>University of Colorado Boulder</h4>
 <p><br></p>
-<p><strong>Hello!</strong> I’m an environmental epidemiologist with an interest in environmental monitoring, environmental justice, and community/science partnerships. During my public health career, I’ve worked on numerous projects in the United States and abroad, ranging from measuring volatile organic compound emissions at gas stations in the US to developing epidemiologic surveys to measure smoking rates in the United Arab Emirates. My work has focused primarily on outdoor and indoor air pollution and chemical exposure, including exposure to air pollutants from traffic, gas stations, and petroleum sources, as well as indoor pollutants like secondhand exposure to hookah, cigarettes, or electronic cigarettes. Recently, I’ve begun studying the intersection of menstruation and environmental health, and am particularly interested in understanding how menstruation might be a route of exposure to environmental chemicals (for example exposure to pesticides through use of cotton tampons) and an excretion route (for example of PFAS in blood).</p>
+<p><strong>Hello!</strong> I’m an environmental epidemiologist with an
+interest in environmental monitoring, environmental justice, and
+community/science partnerships. During my public health career, I’ve
+worked on numerous projects in the United States and abroad, ranging
+from measuring volatile organic compound emissions at gas stations in
+the US to developing epidemiologic surveys to measure smoking rates in
+the United Arab Emirates. My work has focused primarily on outdoor and
+indoor air pollution and chemical exposure, including exposure to air
+pollutants from traffic, gas stations, and petroleum sources, as well as
+indoor pollutants like secondhand exposure to hookah, cigarettes, or
+electronic cigarettes. Recently, I’ve begun studying the intersection of
+menstruation and environmental health, and am particularly interested in
+understanding how menstruation might be a route of exposure to
+environmental chemicals (for example exposure to pesticides through use
+of cotton tampons) and an excretion route (for example of PFAS in
+blood).</p>
 <p><br></p>
 </div>
 </div>
 <div id="section" class="section level3">
 <h3><i class="far fa-address-card fa-lg"></i></h3>
-Jenni A. Shearston, PhD, MPH <br> <a href="https://nature.berkeley.edu/morellofroschlab/">Sustainability and Health Equity (S/HE) Lab</a> <br> <a href="https://ourenvironment.berkeley.edu">Department of Environmental Science, Policy, and Management</a> <br> <a href="https://publichealth.berkeley.edu">School of Public Health</a> <br> <a href="https://www.berkeley.edu">University of California Berkeley</a> <br> Hilgard Hall, Room 108 <br> Berkeley, CA 94720 <br> Email: <a href="mailto:%3Cjshearston@berkeley.edu%3E">jshearston@berkeley.edu</a> <br> <strong><a href="Curriculum%20Vitae%2008.03.23.pdf">CV</a></strong> <br> <strong><a href="https://www.ncbi.nlm.nih.gov/myncbi/1DQxtak6xiwwn5/bibliography/public/">NCBI - My Bibliography</a></strong>
+Jenni A. Shearston, PhD, MPH <br> <a
+href="https://nature.berkeley.edu/morellofroschlab/">Sustainability and
+Health Equity (S/HE) Lab</a> <br> <a
+href="https://ourenvironment.berkeley.edu">Department of Environmental
+Science, Policy, and Management</a> <br> <a
+href="https://publichealth.berkeley.edu">School of Public Health</a>
+<br> <a href="https://www.berkeley.edu">University of California
+Berkeley</a> <br> Hilgard Hall, Room 108 <br> Berkeley, CA 94720 <br>
+Email: <a
+href="mailto:%3Cjshearston@berkeley.edu%3E">jshearston@berkeley.edu</a>
+<br> <strong><a href="Curriculum%20Vitae%2008.03.23.pdf">CV</a></strong>
+<br> <strong><a
+href="https://www.ncbi.nlm.nih.gov/myncbi/1DQxtak6xiwwn5/bibliography/public/">NCBI
+- My Bibliography</a></strong>
 </p>
 <p><br> <br></p>
 <hr />
