@@ -1,10 +1,15 @@
 ---
-title: "Current Projects"
+title: "Previous Projects"
 ---
 
 ***
 
+#### **For current projects, please visit [my University of Colorado lab website.](https://www.colorado.edu/iphy/people/faculty/jenni-a-shearston)**
 
+***
+
+
+<br>
 <img src="images/mailman.png" style="width:35%; display: block; margin: 0 auto">
 <br>
 
@@ -21,7 +26,7 @@ Air pollution from traffic is a pernicious exposure globally, and has been tied 
 
 ###### *The South Bronx*
 
-Partnering with [South Bronx Unite](https://www.southbronxunite.org), we are actively monitoring traffic and air pollution in the Mott Haven and Port Morris communities. Continued industrial  development in these neighborhoods has increased traffic, potentially contributing to the already high burden of childhood asthma. For this project, we aim to: (1) measure traffic changes over time, (2) assess traffic related air pollution, and (3) increase capacity for community monitoring. 
+Partnering with [South Bronx Unite](https://www.southbronxunite.org), we monitored traffic and air pollution in the Mott Haven and Port Morris communities. Continued industrial  development in these neighborhoods has increased traffic, potentially contributing to the already high burden of childhood asthma. For this project, we aimed to: (1) measure traffic changes over time, (2) assess traffic related air pollution, and (3) increase capacity for community monitoring. 
 
 <img src="images/SBU_01182020_presentation_picture.jpg" style="width:45%" HSPACE="40" VSPACE="10" /> 
 
@@ -35,9 +40,9 @@ Partnering with [South Bronx Unite](https://www.southbronxunite.org), we are act
 
 Menstruation is a vastly understudied health process in environmental health. I am interested in understanding how menstruation is related to chemical exposures and excretion, and how this could impact health. For example, tampons, which are composed of cotton and rayon, can contain contaminants such as metals and endocrine disrupting chemicals. Additionally, menstruation is likely an excretion route for PFAS in the body. 
 
-We are currently measuring concentrations of various pesticides and metals in a selection of popular US tampon brands, and are conducting an epidemiologic study of the relationship between tampon use metals in the Study of Environment, Lifestyle, and Fibroids (SELF)  cohort. 
 
 * Publications: 
+  + [Tampons as a Source of Exposure to Metal(loid)s](https://pubmed.ncbi.nlm.nih.gov/38963987/)
   + [Menstrual Products as a Source of Environmental Chemical Exposure: A Review from the Epidemiologic Perspective](https://pubmed.ncbi.nlm.nih.gov/35302185/)
   + [An Epidemiologic Review of Menstrual Blood Loss as an Excretion Route for Per- and Polyfluoroalkyl Substances](https://pubmed.ncbi.nlm.nih.gov/35267175/)
 
@@ -45,7 +50,7 @@ We are currently measuring concentrations of various pesticides and metals in a 
 
 #### **Exposures at Gas Stations**  
 
-Gas stations are sources of exposure for numerous dangerous chemicals and mixtures, including vehicle exhaust, vaporized fuel, and liquid fuel, which contain harmful aromatics (benzene, toluene) and other chemicals (black carbon, particles). Individuals can be exposed to these mixtures when they refuel their vehicles, work at gas stations, or happen to live or work in close proximity to a gas station. At particular risk are the thousands of employees who work as gas station attendants pumping gas for customers, for example in the state of New Jersey, where self-service is illegal. Despite these risks, there is limited knowledge on exposures and potential health impacts at gas stations, especially in the United States. The goals of this project are (1) to quantify exposures to gasoline from typical vehicle refueling at gas stations using a number of environmental monitoring methods, (2) to estimate exposures to gasoline from venting through underground storage tank vent pipes, and (3) to quantify exposures to fuel vapor from various sources at gas stations.  
+Gas stations are sources of exposure for numerous dangerous chemicals and mixtures, including vehicle exhaust, vaporized fuel, and liquid fuel, which contain harmful aromatics (benzene, toluene) and other chemicals (black carbon, particles). Individuals can be exposed to these mixtures when they refuel their vehicles, work at gas stations, or happen to live or work in close proximity to a gas station. At particular risk are the thousands of employees who work as gas station attendants pumping gas for customers, for example in the state of New Jersey, where self-service is illegal. Despite these risks, there is limited knowledge on exposures and potential health impacts at gas stations, especially in the United States.
 
   * Publications:   
     + [Gasoline Vapor Emissions During Vehicle Refueling Events in a Vehicle Fleet Saturated with Onboard Refueling Vapor Recovery Systems: Need for an Exposure Assessment](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7020915/)  

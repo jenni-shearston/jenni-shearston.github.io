@@ -16,12 +16,6 @@ NIEHS Center Pilot Award P30ES009089. Role: Co-I. "Tampons as a source of pestic
 
 ### Selected Publications
 
-#### Manuscripts in Progress
-* (In preparation) **Shearston JA**, Upson K, Balac O, Do V, Gordon M, Nguyen K, Yan B, Kioumourtzoglou MA, Schilling K. (2023). Tampons as a Source of Exposure to Metal(loid)s.
-* (In preparation) **Shearston JA**, Saxena R, Casey JA, Kioumourtzoglou MA, Hilpert M. (2023). Variation in the Impact of New York on Pause on Traffic Congestion by Racialized Economic Segregation and Environmental Burden.
-* (Submitted) Rowland ST+, **Shearston JA+**, Cole J, Chillrud SN, Martinez ME, Hilpert H. (2023). A Reproducible Method for Acquisition, Processing, and Analysis of Crowd-Sensed Traffic Data at User-Specified Spatial Scales. *+ Shared first author*
-* (In preparation) **Shearston JA**, Geller RJ, Harmon Q, Upson K, Wise LA, Wesselink AK, Wegienka GR, Baird DD, Kioumourtzoglou M-A. (2023). Tampons as a Source of Exposure to Metals Among Reproductive-aged Black Women. 
-
 <br>
 
 #### Traffic-related Air Pollution
@@ -41,6 +35,8 @@ NIEHS Center Pilot Award P30ES009089. Role: Co-I. "Tampons as a source of pestic
 <br>
 
 #### Menstruation and Environmental Health
+
+* **Shearston JA**, Upson K, Balac O, Do V, Gordon M, Nguyen K, Yan B, Kioumourtzoglou MA, Schilling K. (2024). [Tampons as a Source of Exposure to Metal(loid)s.](https://pubmed.ncbi.nlm.nih.gov/38963987/) Environ Int; Aug:190:108849. doi: 10.1016/j.envint.2024.108849
 
 * Upson K, **Shearston JA**, Kioumourtzoglou MA. (2022). [An Epidemiologic Review of Menstrual Blood Loss as an Excretion Route for Per- and Polyfluoroalkyl Substances.](https://pubmed.ncbi.nlm.nih.gov/35267175/) Curr Environ Health Rep; 9, 29-37. doi: 10.1007/s40572-022-00332-0
 
